@@ -1,15 +1,37 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+/* Each of the properties of the shorthand:
+
+    animation-name: none
+    animation-duration: 0s
+    animation-timing-function: ease
+    animation-delay: 0s
+    animation-iteration-count: 1
+    animation-direction: normal
+    animation-fill-mode: none
+    animation-play-state: running
+
+  in the order:
+    @keyframes duration | timing-func | delay | iteration-count | direction | fill-mode | play-state | name
+*/
+.Logo {
+  animation: Logo-spin infinite alternate 10s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
+.Header {
+  animation-name: Slide-in;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +41,32 @@
   color: white;
 }
 
-.App-link {
+.Link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.Heading {
+
+}
+
+@keyframes Logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-180deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes Slide-in {
+  from {
+    margin-left: 100%;
+    width: 200%;
+    transform: scale(10);
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+    transform: scale(1);
   }
 }
