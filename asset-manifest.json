@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/momma_bday_2019/static/css/main.b0d25bbf.chunk.css",
+    "main.js": "/momma_bday_2019/static/js/main.cfac0345.chunk.js",
+    "main.js.map": "/momma_bday_2019/static/js/main.cfac0345.chunk.js.map",
+    "runtime~main.js": "/momma_bday_2019/static/js/runtime~main.b7c7c197.js",
+    "runtime~main.js.map": "/momma_bday_2019/static/js/runtime~main.b7c7c197.js.map",
+    "static/js/2.4ec83c02.chunk.js": "/momma_bday_2019/static/js/2.4ec83c02.chunk.js",
+    "static/js/2.4ec83c02.chunk.js.map": "/momma_bday_2019/static/js/2.4ec83c02.chunk.js.map",
+    "index.html": "/momma_bday_2019/index.html",
+    "precache-manifest.fd52950772a332a5ee0ab8c7e1ea8d0c.js": "/momma_bday_2019/precache-manifest.fd52950772a332a5ee0ab8c7e1ea8d0c.js",
+    "service-worker.js": "/momma_bday_2019/service-worker.js",
+    "static/css/main.b0d25bbf.chunk.css.map": "/momma_bday_2019/static/css/main.b0d25bbf.chunk.css.map",
+    "static/media/logo.svg": "/momma_bday_2019/static/media/logo.1a1a4b30.svg"
+  }
+}
